@@ -8,7 +8,8 @@ Term: Fall 2016
 
 + [Data description](doc/readme.html)
 
-+ Contributor's name: __Yinxiang Gao, Guanzhong You__
++ Contributor's name: __Yinxiang Gao__
++ Co-worker: __Guanzhong You__
 
 + Projec title: __Music and Lyrics__
 
@@ -62,7 +63,7 @@ P.S. Only a part of them are used in the final model.
 
 The final input we use has 38 features for each song.
 
-We run a PCA to reduce the dimension of output (originally the lyrics frequency chart have 5000 columns) to about 100.
+We run a PCA to reduce the dimension of output (originally the lyrics frequency chart have 5000 columns) to about 100. The PCA can also help us solve problem of sparseness of output matrix, as well as eliminating correlation between dimensions.
 
 Build a single layer neural network with
 * __1712__ training observations (first 2000 songs minus songs assigned to non-English topics)
