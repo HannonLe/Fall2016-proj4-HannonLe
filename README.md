@@ -91,6 +91,12 @@ Under the evaluation rule of predictive rank sum, we have:
 3. Our model
   * predictive rank sum = 0.19
   * average prediction rank around __480__
+  
+While our model did slightly better than the baseline model, I still don't think that there exists a significant relationship between music features and lyrics, in that 
+
+1. By eliminating the non-English song in both training dataset and test dataset, we merely improved the prediction power on English songs, but left those non-English songs behind. If the relationship between music features and lyrics is universal and strong, language shouldn't make such a big difference.
+
+2. By eliminating the non-English song in both training dataset and test dataset, the performance of baseline model (prediction rank sum using word frequency of English songs only) actually increases to around 480. Therefore our model is just as good as the baseline model, which means that the music features we extracted are not very useful in predicting lyrics.
 
 ---------
 
