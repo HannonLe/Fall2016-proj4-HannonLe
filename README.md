@@ -9,7 +9,6 @@ Term: Fall 2016
 + [Data description](doc/readme.html)
 
 + Contributor's name: __Yinxiang Gao__
-+ Co-worker: __Guanzhong You__
 
 + Projec title: __Music and Lyrics__
 
